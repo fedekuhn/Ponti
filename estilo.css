@@ -32,6 +32,22 @@ li {
      font-family: 'Merienda', cursive;
      font-size: 50px;
 }
+.anima{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .pie{
     margin: 2rem;
     padding: 2rem;
