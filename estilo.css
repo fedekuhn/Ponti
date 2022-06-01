@@ -100,7 +100,16 @@ li {
     background-color: grey;
     grid-area: articulo2;
 }
-
+.art1 :hover{
+    background-color: white;
+    transform: rotate(360deg);
+    transition: all, 2s ease;
+}
+.art2 :hover{
+    background-color: white;
+    transform: rotate(360deg);
+    transition: all, 2s ease;
+}
 @media only screen and (max-width: 320px){
     .seccionnosotros{
         grid-template-areas:
