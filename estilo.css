@@ -113,6 +113,10 @@ li {
     padding: 3re;
     text-decoration: underline;
 }
+.seccioncarrusel{
+    background-image: radial-gradient(lightblue,blue,navy);
+      
+  }
 .seccionQO{
     margin: 3rem;
     padding: 6rem;
